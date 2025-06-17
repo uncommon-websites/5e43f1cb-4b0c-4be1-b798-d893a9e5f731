@@ -191,9 +191,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Work better, stay aligned"
-	subtitle="Be part of a team shaping the future of teamwork"
-	imageSrc="/generated/image-a-diverse-team-of-professionals-working-.webp"
+  title="Teams thrive on alignment"
+  subtitle="Work at Sentra and help build the AI teammate keeping it that way"
+  imageSrc="/generated/image-a-diverse-team-of-employees-collaboratin.webp"
 />
 
 <!-- Why Join Us Section -->

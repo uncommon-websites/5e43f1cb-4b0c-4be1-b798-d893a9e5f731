@@ -13,7 +13,6 @@
 <CenteredTextOnlyHero
   title="Know when your team’s not aligned"
   subtitle="Sentra alerts you when team participation drops or communication breaks down—so you can fix issues before they become problems."
-  imageSrc="/generated/image-a-group-of-people-sitting-around-a-table.webp"
   callsToAction={[{ href: '/request-access', label: 'Request early access' }]}
 />
 <LogoScroller

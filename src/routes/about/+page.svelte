@@ -10,35 +10,38 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+    {
+      title: "We listen quietly, act early",
+      description: "Great teams don’t ignore quiet signals. Sentra surfaces small signs of misalignment before they become big problems."
+    },
+    {
+      title: "Connect across every corner",
+      description: "Clear communication drives alignment. We believe every team’s perspective matters in keeping organizations healthy."
+    },
+    {
+      title: "Trust through transparency",
+      description: "Sentra’s alerts are always privacy-first—focused on patterns, not individuals—so you get signal, not surveillance."
+    },
+    {
+      title: "Proactive, not reactive",
+      description: "We value early, subtle intervention over fire drills. Sentra helps you address problems before people feel them."
+    }
+  ];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+	title="Stay ahead of team misalignment"
+	subtitle="Sentra alerts you to collaboration issues before they become problems"
+	imageSrc="/mockups/airport-screen-1750178260373.png"
 />
 
 <!-- Story Section -->
 <Story
-	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
-	]}
+  paragraphs={[
+    "Sentra started with a question: why do teams go off track, even when everyone’s trying their best? We spoke to leaders of growing companies and kept hearing the same thing—internal misalignment doesn't arrive with a bang; it builds quietly. People speak up less in meetings, updates get delayed, and cross-team communication feels harder than it should be. These early signs are typically missed until the damage is done.",
+    "That was the 'aha' moment. What if an AI could catch subtle changes in team dynamics—like quiet disengagement or mounting friction—before they lead to lost momentum or confusion? Sentra became that AI teammate. It listens across existing tools, connects the dots, and gives leaders a heads-up that something’s slipping—not with guesswork, but with real signals they may not notice in time.",
+    "Pilot teams using Sentra reported big gains in clarity and efficiency. They trimmed unnecessary meetings, cut friction between departments, and acted on alignment risks early. No extra dashboards, no complicated setup—just simple, proactive insight when it’s needed most."
+  ]}
 />
 
 <!-- Our Culture Section -->
@@ -46,32 +49,17 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Meet Sentra’s founder."
+  subtitle="Building proactive alignment from the inside out."
+  stakeholders={[
+    {
+      name: "Alex Morgan",
+      position: "Founder & CEO",
+      bio: "Founded Sentra to help organizations spot misalignment issues early—before they become costly or irreversible. Passionate about organizational health, Alex applies deep experience in team collaboration and AI to solve real workplace challenges.",
+      image: "/generated/image-a-professional-headshot-of-a-serious-bus.webp"
+    }
+  ]}
 />
 
 <StakeholderGrid
@@ -96,7 +84,11 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Be the first to spot misalignment."
+  subtitle="Sentra is invite-only for now."
+  description="Join our private beta to get early access to an AI teammate that helps your team stay aligned—before problems arise. Bring new clarity, save time, and prevent team friction before it starts. The future of proactive teamwork starts here."
+  imageSrc="/generated/image-a-group-of-diverse-professionals-engaged.webp"
+  callsToAction={[
+    { href: '/request-access', label: 'Request early access', variant: 'primary' }
+  ]}
 />

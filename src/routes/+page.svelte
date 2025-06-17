@@ -27,107 +27,112 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Sentra is an AI teammate that helps companies stay aligned. It listens for signs of misalignment—like dropping participation or team conflicts—so you can fix problems before they escalate. Get clear, early signals to keep your team on track."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Maria Nevarez",
+			position: "Operations Lead",
+			company: "Pacific Core Labs",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Sentra shaved nearly five hours off our team meetings every week—without us losing track of a thing.",
+			image: "/generated/image-confident-latina-businesswoman-working-i.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Tobias Müller",
+			position: "Head of Engineering",
+			company: "Riverside Systems",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"An early alert from Sentra gave us enough time to clarify a cross-team mix-up that could have cost us a major account.",
+			image: "/generated/image-a-cheerful-german-businessman-in-a-moder.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Riley Kim",
+			position: "People & Culture Manager",
+			company: "Nebula Interactive",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Cutting even a few unnecessary meetings with Sentra’s help saved us thousands each quarter. The results are in our budget.",
+			image: "/generated/image-a-nonbinary-asian-professional-sitting-i.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why teams choose Sentra"
+	subtitle="Six ways Sentra tackles misalignment before it affects your business."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Proactive misalignment detection",
+			description: "Sentra quietly analyzes activity and flags disengagement and collaboration issues before anyone asks about morale."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Reduced unnecessary meetings",
+			description: "Identify when meetings lose value and cut them back without second-guessing—or guesswork."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Early alerting for silent resignation",
+			description: "Spot team members who have stopped participating, updating, or collaborating long before it becomes a problem."
+		},
+		{
+			title: "Cross-team communication health",
+			description: "Get notified when teams begin working in silos or communication breaks down between key groups."
+		},
+		{
+			title: "Privacy-respecting analysis",
+			description: "Sentra respects boundaries, learning norms and signals without exposing private conversations."
+		},
+		{
+			title: "Continuous learning AI teammate",
+			description: "Sentra adapts to your company’s unique rhythm for truly relevant, actionable organizational insight."
 		}
 	]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
+	title="Use cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Catch silent resignation",
+			description: "Get notified when engagement drops so you can re-engage teammates before they drift away.",
+			image: "/generated/image-a-diverse-team-in-an-office-setting-with.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/silent-resignation",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Reduce unnecessary meetings",
+			description: "Spot recurring meetings with low participation and reclaim lost time with real data.",
+			image: "/generated/image-a-manager-standing-alone-in-a-meeting-ro.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/meeting-optimization",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Detect team silos early",
+			description: "Get ahead of cross-functional friction by identifying breakdowns in communication flow proactively.",
+			image: "/generated/image-multiple-teams-working-in-a-spacious-ope.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/team-silos",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Keep your team aligned before problems surface"
+  subtitle="Request exclusive early access"
+  description="Sentra flags misalignment before it hurts your team—so you can act on issues early, cut back wasted meetings, and improve collaboration. Join our private beta to see the impact yourself."
+  imageSrc="/generated/image-a-group-of-happy-smiling-business-profes.webp"
+  callsToAction={[
+    { href: '/request-access', label: 'Request early access', variant: 'primary' },
+    { href: '/how-it-works', label: 'See how it works', variant: 'secondary' }
+  ]}
+/>

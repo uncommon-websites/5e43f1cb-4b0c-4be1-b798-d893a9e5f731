@@ -39,6 +39,15 @@ Takes up the full viewport height and centers content vertically.
 			data-enter-container
 		>
 			<div class="grid max-w-4xl place-items-center justify-center gap-8 py-20">
+				<!-- Team alignment illustration -->
+				<div class="w-32 h-20 opacity-60 mb-4" data-enter>
+					<img 
+						src="/generated/image-a-candid-moment-of-two-individuals-in-a-.webp" 
+						alt="Team alignment illustration" 
+						class="w-full h-full object-cover rounded-lg filter grayscale"
+					/>
+				</div>
+				
 				<h1 class="text-display w-full text-balance" data-enter>
 					<span class="block"><AnimateText text={title} /></span>
 				</h1>

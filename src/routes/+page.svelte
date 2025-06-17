@@ -7,16 +7,24 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CenteredTextOnlyHero
+  title="Know when your team’s not aligned"
+  subtitle="Sentra alerts you when team participation drops or communication breaks down—so you can fix issues before they become problems."
+  imageSrc="/generated/image-a-group-of-people-sitting-around-a-table.webp"
+  callsToAction={[{ href: '/request-access', label: 'Request early access' }]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/atlassian.com",
+		"https://logo.clearbit.com/slack.com",
+		"https://logo.clearbit.com/zendesk.com",
+		"https://logo.clearbit.com/zoom.us"
+	]}
+/>
 
 <Summary
 	generating
